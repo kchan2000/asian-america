@@ -4,23 +4,30 @@ body {
 
 }
 
-a:visited, a:focus {
-    text-decoration: none;
-    color: black;
-}
 
-a:hover, a:active{
-    text-decoration: none;
-    color: brown;
-}
 
 
 #navText {
     margin-top: 5vh;
     margin-left: 2vw;
     font-size: 20px;
-    font-family: "Share Tech Mono"
+    font-family: "Share Tech Mono";
 
+}
+
+#name{
+    text-decoration: none;
+    color: black;
+}
+
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: brown;
 }
 
 .web{
